@@ -36,8 +36,8 @@
 
     <!-- Output to TextView styled with a little HTML -->
     <string name="title"><![CDATA[<h3>HERE IS YOUR SLEEP DATA</h3>]]></string>
-    <string name="start_time"><![CDATA[<b>Start:</b>]]></string>
-    <string name="end_time"><![CDATA[<b>End:</b>]]></string>
+    <string name="start_time"><![CDATA[<b><font color=#006400>Start : </font></b>]]></string>
+    <string name="end_time"><![CDATA[<b><font color=#DC143C>End: </font></b>]]></string>
     <string name="quality"><![CDATA[<b>Quality:</b>]]></string>
     <string name="hours_slept"><![CDATA[<b>Hours:Minutes:Seconds</b>]]></string>
 
