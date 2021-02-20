@@ -46,6 +46,8 @@
         <action
             android:id="@+id/action_sleepQualityFragment_to_sleepTrackerFragment"
             app:destination="@id/sleep_tracker_fragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
             app:launchSingleTop="false"
             app:popUpTo="@+id/sleep_tracker_fragment"
             app:popUpToInclusive="true" />
