@@ -75,14 +75,13 @@ class SleepTrackerViewModel(
 
    fun doneShowSnackBar(){
       _showSnackbarEvent.value=false
-      // _showNightDataEnabled.value=true
+
 
    }
 
 
     init {
         initializeNight()
-       _showNightDataEnabled.value=true
     }
 
     private fun initializeNight() {

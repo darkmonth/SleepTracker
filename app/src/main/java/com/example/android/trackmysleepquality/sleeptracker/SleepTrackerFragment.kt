@@ -71,6 +71,8 @@ class SleepTrackerFragment : Fragment() {
                         activity!!.findViewById(android.R.id.content),
                         getString(R.string.cleared_message) ,
                         Snackbar.LENGTH_SHORT
+
+
                 ).show()
                 sleepTrackerViewModel.doneShowSnackBar()
             }
